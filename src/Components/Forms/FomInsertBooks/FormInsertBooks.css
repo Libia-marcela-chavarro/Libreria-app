@@ -1,0 +1,81 @@
+.nombrelabel {
+    width: 90%;
+    margin: 20px 40px auto auto;
+    background-color: #cac0bc;
+    border: 1px #cac0bc solid;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 10px;
+
+}
+
+.estilos-paneles-principal {
+    width: 50%;
+    height: 5vh;
+    background-color: #cac0bc;
+    border-radius: 20px;
+    filter: drop-shadow(1px 2px 3px #b8aaa5);
+}
+
+.panel-principal {
+    margin: auto;
+    margin-top: 4vh;
+    width: 80%;
+    height: 40vh;
+    min-width: 440px;
+}
+
+.principal-modal {
+    background-color: rgba(12, 4, 4, 0.749);
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+    text-align: center;
+}
+
+label {
+    width: 90%;
+    height: 2vh;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 40px auto auto;
+    background-color: #cac0bc;
+    border: 1px #cac0bc solid;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 30%;
+    height: 4vh;
+}
+
+.btnAniadir {
+    width: 100%;
+    height: 4vh;
+}
+
+button {
+    width: 60%;
+    height: 4vh;
+    background-color: #cac0bc;
+    box-shadow: 3px 5px 5px #9d9794;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    margin-top: 1vh;
+    font-size: 20px;
+    bottom: 20px;
+    right: 24px;
+    font-weight: bold;
+    color: #5b1f00;
+    height: 5vh;
+}

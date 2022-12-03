@@ -1,0 +1,32 @@
+.modalPrincipal{
+    background: #D7CCC8 !important; 
+    width:78%;
+    height: 72vh;   
+    border-radius: 20px;
+}
+.cerrar{ 
+    background-color: #cac0bc;
+    box-shadow: 0px 5px 15px #9d9794;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 64px;
+    width: 64px;
+    transform: rotate(0);
+    transition: .3s ease;
+    z-index: 1;
+
+    margin-right: 92%;
+    margin-bottom: 84vh;
+}

@@ -1,0 +1,14 @@
+.panelPrincipal{
+    background: #D7CCC8 !important; 
+    width:100%;
+    height: 100vh;
+}
+.titulo-libreria{
+    margin-top: 0px !important;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    color: #5b1f00;
+    text-shadow: 2px 2px 2px #66280a;
+}

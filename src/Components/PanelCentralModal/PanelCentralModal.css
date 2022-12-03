@@ -1,0 +1,27 @@
+.estilos-paneles-principal {
+    width:50%;
+    height: 5vh;
+    background-color: #cac0bc;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 3px #b8aaa5);
+    overflow: scroll;
+}
+
+.estilos-paneles-principal::-webkit-scrollbar {
+    width: 7px;
+    display: none;
+}
+
+.estilos-paneles-principal::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+.panel-principal {
+    margin: auto;
+    margin-top: 3vh;
+    width: 80%;
+    height: 40vh;
+    min-width: 440px;
+
+}

@@ -1,0 +1,39 @@
+.header-book{
+    width: 80%;
+    height: 6vh;
+    margin: 8px auto auto auto;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: 'Shadows Into Light', cursive;
+    border-radius: 15px;
+    font-weight: bolder;
+    color: #5b1f00;
+    display: flex;
+    justify-content: space-between;
+}
+
+.estilos-paneles-principal {
+    width:50%;
+    height: 5vh;
+    background-color: #cac0bc;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 3px #b8aaa5);
+    overflow: scroll;
+}
+
+.estilos-paneles-principal::-webkit-scrollbar {
+    width: 7px;
+    display: none;
+}
+
+.estilos-paneles-principal::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+.panel-principal {
+    width: 80%;
+    height: 40vh;
+    min-width: 440px;
+}

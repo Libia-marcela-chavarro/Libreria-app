@@ -1,0 +1,23 @@
+.item-book{
+    width: 80%;
+    height: 6vh;
+    margin: 8px auto auto auto;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: 'Shadows Into Light', cursive;
+    border-radius: 15px;
+    font-weight: bolder;
+    background-color: #5b1f00;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    transition: all .4s;
+}
+
+.item-book:hover{
+    width: 80.3%;
+    height: 6.3vh;
+    cursor: pointer;
+    transition: all .4s;
+}

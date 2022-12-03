@@ -1,0 +1,41 @@
+.pnl-contain{
+    width: 90%;
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 20% 60%;
+}
+
+.pnl-contain div{
+    width: 100%;
+}
+
+.pnl1 {
+    padding-top: 3.5vh;
+    padding-left: 100px;
+    font-size: 25px;
+    
+}
+
+.visor {
+    width: 70%;
+    height: 5vh;
+    margin: 20px 40px auto auto;
+    background-color: #cac0bc;
+    border: 1px #cac0bc solid;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.select-filter {
+    width: 80%;
+    height: 5vh;
+    background-color: #cac0bc;
+    border: 1px #cac0bc solid;
+    margin: 20px 40px auto auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
